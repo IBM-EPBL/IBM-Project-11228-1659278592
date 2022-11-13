@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+ 
+    <title> Register</title>
+       
+<style>    
+ body {
+        background-image: url('https://live.staticflickr.com/4078/4770846644_004a7bee10_b.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+      }
+.con{
+   border: 5px solid lemonchiffon;  
+   border-style: inset;
+   border-width: 7px;
+   border-color: coral;
+   padding:120px;
+   height:250px;
+   width:200px; 
+   background-color:burlywood;
+}
+ 
+</style>
+<body>
+    <h1 style="font-size:160%;color:orange;font-family:Verdana, Geneva, Tahoma, sans-serif;text-align:center";>REGISTER FORM</h1><br><br>
+<center> 
+    <form method="post" action="form.php" >
+ <div class="con" >    
+<label for="username"><b>Username:</b></label>   
+<input type="text" id="username"  name="username" placeholder="username"  required><br><br>
+<label for="password"><b>Password:</b></label>
+<input type="password" id="password"  name="password" placeholder="password" required ><br><br>
+<label for="passwordd"><b>Re-type:</b></label>
+<input type="password" id="password"  name="password" placeholder="repeatpassword" required ><br><br>
+<label for="email"><b>Email Id:</b></label>
+<input type="email" id="usermail"  name="email" placeholder="email"required ><br><br>
+<br>
+<input type="submit"  value="Submit">   
+</div></form>
+</center>
+              
+ 
+</body>
+</html>
+
+
