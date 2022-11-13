@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  background-image:url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v960-ning-30.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=63dd5f402645ef52fb7dfb592aec765a');
+  background-size: 1500px 900px;
+  background-repeat: no-repeat;
+background-attachment: fixed;}
+  
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; 
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.icon {
+  padding: 10px;
+  background: teal;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 70%;
+  padding: 10px;
+  outline: none;
+
+}
+
+.input-field:focus {
+  border: 2px solid teal;
+}
+.btn {
+  background-color: teal;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  opacity: 0.9;
+  border-radius: 25px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+<form action="/action_page.php" style="max-width:500px;margin:auto">
+<br><br><br><br><br><h2>LOGIN </h2>
+
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input class="input-field" type="text" placeholder="Email" name="email">
+  </div>
+ 
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" type="password" placeholder="Password" name="psw">
+  </div>
+
+  <button type="submit" class="btn">LOGIN</button>
+  
+</form>
+
+
+<a href="main3.html"></a>
+</body>
+</html>
